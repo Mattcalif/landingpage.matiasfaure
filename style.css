@@ -1,0 +1,161 @@
+/* Write some CSS below */
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: rgb(5, 5, 5);
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  color: rgb(250, 249, 249);
+  font-size: 46px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 50px 0;
+}
+
+h3 {
+font-size: 22px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url('images/maillot.jpeg');
+  background-position: center;
+  background-size: cover;
+  padding: 260px 0;
+  text-align: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.banner p{
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+.btn-blanc {
+  background-color: #e5a87d;
+   color: rgb(251, 249, 248);
+   border-radius: 4px;
+   padding: 20px 50px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.btn-articles {
+   color: rgb(175, 83, 36);
+   text-align: center;
+  
+}
+
+.btn-blanc:hover{
+  opacity: 0.7;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 10px 20px #f3b18b1a;
+  margin: 8px;
+  border-radius: 5px;
+}
+
+.card-white:hover{
+  transform: translate(3ch, 3mm);
+}
+
+.card-white img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+.footer {
+  background-color: #f5a685;
+  color: white;
+  padding: 7px 0;
+}
+
+.footer p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.cards-inline{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.list-icon {
+  font-size: 40px;
+  color: rgb(246, 242, 242) ; 
+  text-align: center;
+  letter-spacing: 20px;
+
+}
+
+.list-icon i{
+  color: white;
+
+}
+
+@media (max-width :660px){
+  .container{
+    width: 900px;
+  }
+  .cards-inline{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width :720px){
+  .container{
+    width: 680px;
+  }
+  .cards-inline{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width :540px){
+  .container{
+    width: 500px;
+  }
+  .cards-inline{
+    grid-template-columns: 1fr;
+  }
+}
+
+.btn-articles:hover{
+  background-color: rgb(252, 230, 209);
+
+}
+
+.banner i{
+  color: #ffffff;
+  font-size: 40px;
+}
